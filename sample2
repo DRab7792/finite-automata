@@ -1,0 +1,52 @@
+Finite Automata
+state 0 (270,350) start
+state 1 (190,350)
+state 2 (350,270)
+state 3 (270,270)
+state 4 (350,190)
+state 5 (350,110)
+state 6 (230,30) accept
+state 7 (270,190)
+state 8 (30,110) accept
+state 9 (110,270)
+state 10 (110,190) accept
+state 11 (190,270) accept
+state 12 (430,110) accept
+state 13 (110,110) accept
+state 14 (190,190) accept
+state 15 (190,110) accept
+state 16 (270,110) accept
+transition (14,1)->(10)
+transition (15,0)->(6)
+transition (13,0)->(6)
+transition (4,0)->(5)
+transition (5,1)->(7)
+transition (12,1)->(14)
+transition (16,0)->(6)
+transition (8,1)->(10)
+transition (12,0)->(6)
+transition (14,0)->(15)
+transition (15,1)->(16)
+transition (4,1)->(2)
+transition (0,1)->(2)
+transition (11,0)->(1)
+transition (10,1)->(13)
+transition (11,1)->(4)
+transition (5,0)->(6)
+transition (2,0)->(1)
+transition (9,1)->(11)
+transition (2,1)->(2)
+transition (13,1)->(13)
+transition (1,0)->(1)
+transition (6,0)->(6)
+transition (3,1)->(4)
+transition (9,0)->(1)
+transition (0,0)->(1)
+transition (16,1)->(10)
+transition (8,0)->(6)
+transition (6,1)->(8)
+transition (10,0)->(12)
+transition (7,1)->(4)
+transition (7,0)->(9)
+transition (3,0)->(1)
+transition (1,1)->(3)
